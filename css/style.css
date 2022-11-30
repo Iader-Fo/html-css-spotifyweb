@@ -108,15 +108,15 @@
 
 /* MENU MUSICA */
 
-/* RECENTLY PLAYED */
+/* RECENTLY PLAYED - CREATO PER JOHN DOE - ARTISTI PIU' POPOLARI */
 
 .container_recently{
     justify-content: space-between;
-    gap: 10px;
 }
 
-.container_recently .card {
-    width: calc(100% / 6);
+.container_recently .card, .container_created .card, .container_popular .card {
+    width: calc((100% / 6) - 10px);
+    margin-right: 10px;
 }
 
 .card .img_card img{
@@ -126,22 +126,6 @@
 .card .info_card{
     text-align: center;
 }
-
-
-/* CREATO PER JOHN DOE */
-
-
-.container_created, .container_popular{
-    gap: 10px;
-}
-
-.container_created .card, .container_popular .card{
-    width: calc((100% / 6) - 10px);
-}
-
-
-
-
 
 
 
@@ -157,4 +141,53 @@
     bottom: 0;
     left: 0;
     z-index: 30;
+    justify-content: space-between;
+}
+
+.col_left, .col_central, .col_right{
+    height: 100%;
+}
+
+.col_left, .col_right{
+    width: 20%;
+}
+
+.col_central{
+    width: 60%;
+}
+
+.container_footer .col_left{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_footer .logo_music{
+    width: 50px;
+    height: 50px;
+}
+
+.container_footer .logo_music img{
+    width: 100%;
+}
+
+.col_central .container_play, .col_central .container_bar{
+    justify-content: center;
+    align-items: center;
+}
+
+.container_footer .col_central .container_bar .bar{
+    width: 400px;
+    height: 5px;
+    background-color: gray;
+}
+
+.container_footer .col_right .bar_small{
+    width: 100px;
+    height: 5px;
+    background-color: gray;
+}
+
+.container_footer .col_right{
+    justify-content: space-between;
+    align-items: center;
 }
