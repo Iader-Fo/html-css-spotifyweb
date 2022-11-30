@@ -27,12 +27,63 @@
 
 .sidebar{
     width: 20%;
+    background-color: green;
+    position: relative;
 }
+
+/* LOGO */
+
+.logo{
+    height: 10%;
+}
+
+/* HOME */
+
+.container_home .logo_home{
+    width: 40px;
+    height: 40px;
+}
+
+/* CREA PLAYLIST */
+
+.container_crea .logo_crea{
+    width: 40px;
+    height: 40px;
+}
+
+/* NOME PLAYLIST */
+
+/* INSTALLA - PROFILO */
+
+.container_profile{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.container_profile .logo_install{
+    width: 40px;
+    height: 40px;
+}
+
+.container_profile .logo_profile{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
 
 /* CONTAINER MUSIC */
 
 .container_music{
     width: 80%;
+    background-color: orange;
 }
 
 /* FOOTER */
