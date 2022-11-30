@@ -25,7 +25,7 @@
 
 /* SIDEBAR */
 
-.sidebar{
+.container_sidebar{
     width: 20%;
     background-color: green;
     position: relative;
@@ -86,9 +86,38 @@
     background-color: orange;
 }
 
+/* CONTAINER UPGRADE */
+
+.container_music .container_upgrade{
+    height: 10%;
+    background-color: rgb(194, 107, 185);
+    justify-content: end;
+    align-items: center;
+}
+
+/* MENU CENTRALE */
+
+.container_music .container_menu{
+    justify-content: center;
+}
+
+.container_music .container_menu > div{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 /* FOOTER */
 
 .container_footer{
     width: 100vw;
     height: 10vh;
+    background-color: aqua;
 }
