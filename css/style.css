@@ -84,6 +84,7 @@
 .container_music{
     width: 80%;
     background-color: orange;
+    overflow-y: scroll;
 }
 
 /* CONTAINER UPGRADE */
@@ -95,7 +96,7 @@
     align-items: center;
 }
 
-/* MENU CENTRALE */
+/* MENU CENTRALE ALTO */
 
 .container_music .container_menu{
     justify-content: center;
@@ -105,6 +106,38 @@
     padding: 10px;
 }
 
+/* MENU MUSICA */
+
+/* RECENTLY PLAYED */
+
+.container_recently{
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.container_recently .card {
+    width: calc(100% / 6);
+}
+
+.card .img_card img{
+    width: 100%;
+}
+
+.card .info_card{
+    text-align: center;
+}
+
+
+/* CREATO PER JOHN DOE */
+
+
+.container_created, .container_popular{
+    gap: 10px;
+}
+
+.container_created .card, .container_popular .card{
+    width: calc((100% / 6) - 10px);
+}
 
 
 
@@ -120,4 +153,8 @@
     width: 100vw;
     height: 10vh;
     background-color: aqua;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 30;
 }
