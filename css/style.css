@@ -1,0 +1,43 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* REGOLE GENERALI */
+
+.flex{
+    display: flex;
+}
+
+.bordered{
+    border: 1px dashed black;
+}
+
+/* MAIN */
+
+.container_main{
+    width: 100vw;
+    height: 90vh;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+    width: 20%;
+}
+
+/* CONTAINER MUSIC */
+
+.container_music{
+    width: 80%;
+}
+
+/* FOOTER */
+
+.container_footer{
+    width: 100vw;
+    height: 10vh;
+}
