@@ -16,6 +16,21 @@
     border: 1px dashed black;
 }
 
+.text_center{
+    align-items: center;
+    display: inline-flex;
+}
+
+a{
+    text-decoration: none;
+    /* color: var(--secondary-color); */
+}
+
+:root {
+    --primary-color: white;
+    --secondary-color: grey;
+}
+
 /* MAIN */
 
 .container_main{
@@ -30,7 +45,7 @@
     height: 100%;
     min-height: 500px;
     background-color: green;
-    position: relative;
+    padding: 0 10px;
 }
 
 .sidebar_top{
@@ -54,16 +69,30 @@
 .container_home .logo_home{
     width: 40px;
     height: 40px;
+    margin-bottom: 5px;
+    padding-right: 5px;
 }
 
 /* CREA PLAYLIST */
 
+.container_crea h3{
+    padding: 10px 0 5px 0;
+}
+
 .container_crea .logo_crea{
-    width: 40px;
-    height: 40px;
+    margin-right: 5px;
+}
+
+.container_crea .logo_crea i{
+    font-size: 3em;
+    color: var(--secondary-color);
 }
 
 /* NOME PLAYLIST */
+
+.name_playlist li{
+    padding: 7px 0;
+}
 
 /* INSTALLA - PROFILO */
 
@@ -71,14 +100,29 @@
     height: 100px;
 }
 
+.sidebar_bottom .container_profile{
+    display: initial;
+}
+
+.sidebar_bottom .install_app{
+    padding-bottom: 5px;
+}
+
+.sidebar_bottom .logo_app{
+    padding-top: 10px;
+    border-top: 1px solid gray;
+}
+
 .container_profile .logo_install{
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
 }
 
 .container_profile .logo_profile{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
 }
 
 
@@ -107,6 +151,13 @@
     top: 0;
     z-index: 25;
     height: 80px;
+}
+
+.button_upgrade a{
+    padding: 10px 40px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-right: 5px;
 }
 
 /* MENU CENTRALE ALTO */
@@ -138,6 +189,10 @@
 
 .card .info_card{
     text-align: center;
+}
+
+.container_music .title{
+    padding: 15px 0 10px 0;
 }
 
 

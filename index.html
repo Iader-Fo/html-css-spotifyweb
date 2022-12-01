@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Spotify</title>
 
 </head>
@@ -26,8 +28,8 @@
                             <ul>
                                 <li>
                                     <a href="#">
-                                        <div class="flex">
-                                            <div class="logo_home bordered">
+                                        <div class="text_center flex">
+                                            <div class="text_center logo_home bordered">
                                                 <img src="img/home.svg" alt="">
                                             </div>
                                             <div class="bordered">
@@ -38,24 +40,24 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="flex">
-                                            <div class="logo_home bordered">
+                                        <div class="text_center flex">
+                                            <div class="text_center logo_home bordered">
                                                 <img src="img/search.svg" alt="">
                                             </div>
                                             <div class="bordered">
-                                                Home
+                                                Cerca
                                             </div>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="flex">
-                                            <div class="logo_home bordered">
+                                        <div class="text_center flex">
+                                            <div class="text_center logo_home bordered">
                                                 <img src="img/libreria.svg" alt="">
                                             </div>
                                             <div class="bordered">
-                                                Home
+                                                La tua libreria
                                             </div>
                                         </div>
                                     </a>
@@ -68,9 +70,9 @@
                         <div class="bordered flex">
                             <div>
                                 <a href="#">
-                                    <div class="flex">
+                                    <div class="text_center flex">
                                         <div class="logo_crea bordered">
-                                            ICONA
+                                            <i class="fa-sharp fa-solid fa-square-plus"></i>
                                         </div>
                                         <div class="bordered">
                                             Crea Playlist
@@ -126,8 +128,8 @@
                     <div class="container_profile bordered">
                         <div class="install_app bordered">
                             <a href="#">
-                                <div class="flex">
-                                    <div class="logo_install bordered">
+                                <div class="text_center flex">
+                                    <div class="text_center logo_install bordered">
                                         <img src="img/download.svg" alt="">
                                     </div>
                                     <div class="bordered">
@@ -136,16 +138,17 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="bordered flex">
-                            <div class="logo_profile bordered">
-                                <img src="img/profile.svg" alt="">
-                            </div>
-                            <!-- border_bottom -->
-                            <div class="bordered">
-                                <a href="#">
-                                    John Doe
-                                </a>
-                            </div>
+                        <div class="logo_app bordered">
+                            <a href="#">
+                                <div class="text_center flex">
+                                    <div class="text_center logo_profile bordered">
+                                        <img src="img/profile.svg" alt="">
+                                    </div>
+                                    <div class="bordered">
+                                        <h3>John Doe</h3>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -192,7 +195,7 @@
                     </div>
                 </div>
                 <section id="recently_played">
-                    <div>
+                    <div class="title">
                         <h2>Recently played</h2>
                     </div>
                     <div class="container_recently bordered flex">
@@ -253,7 +256,7 @@
                     </div>
                 </section>
                 <section id="created_for">
-                    <div>
+                    <div class="title">
                         <h2>Creato per John Doe</h2>
                         <p>Più ascolti, più accurati saranno i suggerimenti.</p>
                     </div>
@@ -279,7 +282,7 @@
                     </div>
                 </section>
                 <section id="artist_popular">
-                    <div>
+                    <div class="title">
                         <h2>Artisti più popolari</h2>
                         <p>Più ascolti, più accurati saranno i suggerimenti.</p>
                     </div>
