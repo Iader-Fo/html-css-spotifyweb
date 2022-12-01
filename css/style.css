@@ -259,12 +259,30 @@ section{
 .col_central .container_play, .col_central .container_bar{
     justify-content: center;
     align-items: center;
+
 }
 
 .container_footer .col_central .container_bar .bar{
     width: 400px;
     height: 5px;
     background-color: gray;
+}
+
+.container_footer .container_play{
+    padding: 7px 0 0 0;
+}
+
+.container_play a{
+    font-size: 1.3em;
+    margin: 0 15px;
+}
+
+#icon_play{
+    font-size: 1.9em;
+}
+
+.container_bar a{
+    margin: 0 20px;
 }
 
 .container_footer .col_right .bar_small{
