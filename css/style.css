@@ -19,23 +19,25 @@
 /* MAIN */
 
 .container_main{
-    width: 100vw;
-    height: 90vh;
+    width: 100%;
+    height: calc(100vh - 100px);
 }
 
 /* SIDEBAR */
 
 .container_sidebar{
-    width: 20%;
+    width: 250px;
+    height: 100%;
+    min-height: 500px;
     background-color: green;
     position: relative;
 }
 
-/* LOGO */
-
-.logo{
-    height: 10%;
+.sidebar_top{
+    height: calc(100% - 100px);
 }
+
+/* LOGO */
 
 /* HOME */
 
@@ -55,11 +57,8 @@
 
 /* INSTALLA - PROFILO */
 
-.container_profile{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.sidebar_bottom{
+    height: 100px;
 }
 
 .container_profile .logo_install{
@@ -82,7 +81,8 @@
 /* CONTAINER MUSIC */
 
 .container_music{
-    width: 80%;
+    width: calc(100% - 250px);
+    height: 100%;
     background-color: orange;
     overflow-y: scroll;
 }
@@ -90,10 +90,12 @@
 /* CONTAINER UPGRADE */
 
 .container_music .container_upgrade{
-    height: 10%;
     background-color: rgb(194, 107, 185);
-    justify-content: end;
-    align-items: center;
+    text-align: right;
+    padding: 30px 0;
+    position: sticky;
+    top: 0;
+    z-index: 25;
 }
 
 /* MENU CENTRALE ALTO */
@@ -135,7 +137,7 @@
 
 .container_footer{
     width: 100vw;
-    height: 10vh;
+    height: 100px;
     background-color: aqua;
     position: fixed;
     bottom: 0;
