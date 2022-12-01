@@ -286,12 +286,16 @@ section{
 }
 
 .container_footer .col_right .bar_small{
-    width: 100px;
+    width: 150px;
     height: 5px;
     background-color: gray;
 }
 
 .container_footer .col_right{
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
+}
+
+.container_footer .col_right a{
+    padding: 0 10px;
 }
