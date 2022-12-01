@@ -75,8 +75,8 @@ h2, h3{
 /* HOME */
 
 .container_home .logo_home{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin-bottom: 5px;
     padding-right: 5px;
 }
@@ -201,6 +201,8 @@ section{
 
 .container_music .container_menu > div a{
     color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 0.7em;
 }
 
 /* MENU MUSICA */
