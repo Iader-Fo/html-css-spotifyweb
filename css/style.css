@@ -297,6 +297,7 @@ section{
     width: 400px;
     height: 5px;
     background-color: gray;
+    border-radius: 25px;
 }
 
 .container_footer .container_play{
@@ -316,10 +317,15 @@ section{
     margin: 0 20px;
 }
 
+.container_bar span{
+    font-size: 0.8em;
+}
+
 .container_footer .col_right .bar_small{
     width: 150px;
     height: 5px;
     background-color: gray;
+    border-radius: 25px;
 }
 
 .container_footer .col_right{
