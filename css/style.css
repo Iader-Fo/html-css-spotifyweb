@@ -17,7 +17,7 @@ body{
 }
 
 .bordered{
-    border: 1px dashed black;
+    border: 1px dashed white;
 }
 
 .text_center{
@@ -278,6 +278,8 @@ section{
     width: 50px;
     height: 50px;
     margin: 0 7px;
+    background-image: url("../img/sinister.jpeg");
+    background-size: cover;
 }
 
 .container_footer .logo_music img{
@@ -360,4 +362,32 @@ section{
         margin-bottom: 10px;
     }
 
+    .container_footer .col_central .container_bar .bar{
+        width: 250px;
+    }
+
+}
+
+/* 800PX */
+
+@media screen and (max-width: 800px) {
+
+    .container_recently .card, .container_created .card, .container_popular .card {
+        width: calc((100% / 2) - 10px);
+        margin-bottom: 10px;
+    }
+
+    .container_music .container_menu {
+        flex-wrap: wrap;
+    }
+
+    .col_left .container_like{
+        display: block;
+        margin-left: 50px;
+    }
+
+    .container_footer .col_central .container_bar .bar{
+        width: 150px;
+    }
+    
 }
