@@ -278,12 +278,14 @@ section{
     width: 50px;
     height: 50px;
     margin: 0 7px;
-    background-image: url("../img/sinister.jpeg");
-    background-size: cover;
 }
 
 .container_footer .logo_music img{
     width: 100%;
+}
+
+.container_footer .name_music{
+    width: max-content;
 }
 
 .col_left h4{
@@ -360,6 +362,10 @@ section{
     .container_recently .card, .container_created .card, .container_popular .card {
         width: calc((100% / 4) - 10px);
         margin-bottom: 10px;
+    }
+
+    .col_left .container_like{
+        margin-left: 50px;
     }
 
     .container_footer .col_central .container_bar .bar{
