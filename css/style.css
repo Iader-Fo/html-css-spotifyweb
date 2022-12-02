@@ -83,14 +83,15 @@ h2, h3{
 /* HOME */
 
 .container_home .logo_home{
-    width: 35px;
-    height: 35px;
-    margin-bottom: 5px;
-    padding-right: 5px;
+    width: 33px;
 }
 
 .container_home a{
     color: var(--secondary-color);
+}
+
+.row_home{
+    margin-bottom: 10px;
 }
 
 /* CREA PLAYLIST */
@@ -212,7 +213,6 @@ section{
 .container_music .container_menu > div a{
     color: var(--secondary-color);
     font-weight: bold;
-    font-size: 0.7em;
 }
 
 /* MENU MUSICA */
