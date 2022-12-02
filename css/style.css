@@ -372,6 +372,10 @@ section{
         width: 250px;
     }
 
+    .container_music .container_menu > div a {
+        font-size: 1em;
+    }
+
 }
 
 /* 800PX */
@@ -387,6 +391,10 @@ section{
         flex-wrap: wrap;
     }
 
+    .container_music .container_menu > div a {
+        font-size: 1.2em;
+    }
+
     .col_left .container_like{
         display: block;
         margin-left: 50px;
@@ -396,4 +404,30 @@ section{
         width: 150px;
     }
     
+}
+
+/* 500PX */
+
+@media screen and (max-width: 600px) {
+
+    .container_footer .name_music {
+        width: min-content;
+    }
+
+    .col_left .container_like{
+        display: block;
+        margin-left: 10px;
+    }
+
+    .container_footer .col_central .container_bar .bar{
+        width: 150px;
+    }
+    
+    .container_footer .col_right .bar_small{
+        width: 80px;
+    }
+
+    .container_footer .col_right a {
+        margin: 0 5px;
+    }
 }
