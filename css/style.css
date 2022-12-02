@@ -8,6 +8,10 @@
 
 /* REGOLE GENERALI */
 
+body{
+    font-family: 'Nerko One', cursive;
+}
+
 .flex{
     display: flex;
 }
@@ -114,6 +118,8 @@ h2, h3{
 
 .sidebar_bottom{
     height: 100px;
+    background: black;
+    position: sticky;
 }
 
 .sidebar_bottom .container_profile{
@@ -335,4 +341,23 @@ section{
 
 .container_footer .col_right a{
     margin: 0 7px;
+}
+
+
+/* MEDIA QUARY */
+
+/* 1100PX */
+
+@media screen and (max-width: 1100px) {
+
+    .container_recently {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .container_recently .card, .container_created .card, .container_popular .card {
+        width: calc((100% / 4) - 10px);
+        margin-bottom: 10px;
+    }
+
 }
