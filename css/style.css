@@ -17,7 +17,7 @@ body{
 }
 
 .bordered{
-    border: 1px dashed white;
+    /* border: 1px dashed white; */
 }
 
 .text_center{
@@ -74,6 +74,10 @@ h2, h3{
 
 .logo img{
     width: 60%;
+}
+
+.logo .logo_small{
+    display: none;
 }
 
 /* HOME */
@@ -406,7 +410,7 @@ section{
     
 }
 
-/* 500PX */
+/* 600PX */
 
 @media screen and (max-width: 600px) {
 
@@ -429,5 +433,58 @@ section{
 
     .container_footer .col_right a {
         margin: 0 5px;
+    }
+
+    .logo .logo_small{
+        display: block;
+    }
+
+    .logo .logo_big{
+        display: none;
+    }
+
+    .container_sidebar{
+        width: 50px;
+        padding: 0;
+    }
+
+    .container_music{
+        width: calc(100% - 50px);
+    }
+
+    .logo {
+        height: min-content;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 5px 0;
+    }
+
+    .none, .container_crea, .name_playlist{
+        display: none;
+    }
+
+    .container_home{
+        text-align: center;
+    }
+
+    .sidebar_bottom{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .sidebar_bottom .container_profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container_profile .logo_install, .container_profile .logo_profile {
+        margin-right: 0;
+    }
+
+    .sidebar_bottom .logo_app {
+        border-top: none;
     }
 }
